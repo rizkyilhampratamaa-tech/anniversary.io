@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Anniversary</title>
+
+<style>
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:linear-gradient(180deg,#0f172a,#020617);
+color:white;
+text-align:center;
+overflow-x:hidden;
+}
+
+/* BACKGROUND BINTANG */
+
+.stars{
+position:fixed;
+width:100%;
+height:100%;
+background:url("https://www.transparenttextures.com/patterns/stardust.png");
+animation:starsMove 80s linear infinite;
+z-index:-1;
+}
+
+@keyframes starsMove{
+from{background-position:0 0;}
+to{background-position:2000px 2000px;}
+}
+
+/* HALAMAN PEMBUKA */
+
+#start{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.startBtn{
+background:#3b82f6;
+border:none;
+padding:18px 40px;
+font-size:20px;
+border-radius:30px;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.startBtn:hover{
+transform:scale(1.1);
+background:#2563eb;
+}
+
+/* CONTENT */
+
+#content{
+display:none;
+padding:40px 20px;
+}
+
+/* FOTO UTAMA */
+
+.main-photo{
+width:220px;
+height:220px;
+border-radius:50%;
+border:4px solid white;
+object-fit:cover;
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* MESSAGE */
+
+.message{
+max-width:700px;
+margin:auto;
+margin-top:30px;
+line-height:1.8;
+background:rgba(255,255,255,0.06);
+padding:25px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+}
+
+/* TIMER */
+
+.timer{
+margin-top:30px;
+font-size:22px;
+}
+
+/* STORY */
+
+.story{
+max-width:700px;
+margin:auto;
+margin-top:60px;
+line-height:1.8;
+text-align:left;
+}
+
+/* GALERI */
+
+.gallery{
+margin-top:40px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.gallery img{
+width:170px;
+height:170px;
+object-fit:cover;
+border-radius:15px;
+transition:0.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.1);
+}
+
+/* LOVE FLOAT */
+
+.love{
+position:fixed;
+color:#60a5fa;
+font-size:18px;
+animation:float 6s linear infinite;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0) scale(1);
+opacity:1;
+}
+
+100%{
+transform:translateY(-900px) scale(1.6);
+opacity:0;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<!-- HALAMAN PEMBUKA -->
+
+<div id="start">
+
+<h1>Untuk Cantiknya ikyy❤️</h1>
+<h1>MAULIDA RAHMAWATI FAZRIN</h1>
+
+<p>Ada sesuatu yang ingin aku sampaikan...</p>
+
+<button class="startBtn" onclick="openLetter()">
+
+Klik Disini Sayang
+
+</button>
+
+</div>
+
+<!-- CONTENT -->
+
+<div id="content">
+
+<h1>Happy 1st Anniversary</h1>
+
+<img src="photo_2026-03-09_00-56-38.jpg" class="main-photo" width="500">
+
+<div class="message">
+
+<p>
+Happy Anniversary, Sayang ❤️
+
+Tidak terasa waktu berjalan begitu cepat. Hari demi hari kita lewati bersama, dari yang penuh tawa sampai yang kadang dipenuhi dengan masalah kecil yang justru membuat kita semakin kuat. Hari ini bukan hanya tentang bertambahnya waktu hubungan kita, tetapi tentang semua cerita, kenangan, dan perasaan yang kita bangun bersama.
+
+Terima kasih sudah hadir di hidupku. Terima kasih sudah menjadi seseorang yang selalu ada ketika aku membutuhkan tempat untuk pulang. Kamu bukan hanya sekadar pasangan bagiku, kamu adalah teman terbaikku, tempatku bercerita, tempatku mengeluh, tempatku tertawa, dan tempatku merasa paling nyaman menjadi diriku sendiri.
+
+Aku tahu hubungan kita tidak selalu sempurna. Kita pernah berbeda pendapat, pernah merasa lelah, pernah juga merasa marah. Tapi dari semua itu aku belajar satu hal penting, bahwa mencintaimu bukan hanya tentang saat semuanya terasa mudah, tetapi juga tentang memilih untuk tetap bertahan dan memperjuangkan kita ketika keadaan tidak selalu baik-baik saja.
+
+Bersamamu aku belajar arti kesabaran, arti pengertian, dan arti mencintai seseorang dengan tulus. Kamu mengajarkanku bahwa cinta bukan hanya tentang kata-kata manis, tetapi tentang perhatian kecil, tentang saling menjaga, dan tentang selalu mencoba menjadi lebih baik untuk satu sama lain.
+
+Aku berharap perjalanan kita masih sangat panjang. Semoga kita bisa terus berjalan berdampingan, melewati banyak hari, banyak mimpi, dan banyak cerita baru bersama. Aku ingin tetap ada di sampingmu saat kamu bahagia, dan aku juga ingin tetap menggenggam tanganmu ketika hidup terasa berat.
+
+Terima kasih sudah menjadi bagian terindah dalam hidupku.
+Terima kasih sudah memilih untuk tetap bersamaku sampai hari ini.
+
+Semoga di anniversary kita yang sekarang, cinta kita semakin kuat, semakin dewasa, dan semakin dalam dari hari ke hari.
+
+Aku sayang kamu, hari ini, besok, dan seterusnya. ❤️
+
+Happy Anniversary, cintaku.
+</p>
+
+<p>
+Terima kasih sudah hadir dalam hidupku dan membuat semuanya terasa lebih indah.
+Kamu adalah seseorang yang selalu membuatku merasa bahagia setiap hari.
+</p>
+
+<p>
+Semoga perjalanan kita masih sangat panjang,
+dan semoga kita bisa terus berjalan bersama dalam waktu yang lama.
+</p>
+
+<p>
+Aku sayang kamu hari ini, besok, dan selamanya.
+</p>
+
+</div>
+
+<div class="timer">
+
+Kita bersama selama<br>
+
+<span id="time"></span>
+
+</div>
+
+<!-- STORY -->
+
+<div class="story">
+
+<h2>Cerita Kita 📖</h2>
+
+<p>
+Semua berawal dari pertemuan sederhana.
+Kita mulai berbicara, tertawa bersama,
+dan tanpa kita sadari perasaan itu mulai tumbuh.
+</p>
+
+<p>
+Hari demi hari berlalu,
+kita saling mengenal lebih dalam,
+berbagi cerita, mimpi, dan harapan.
+</p>
+
+<p>
+Sampai akhirnya kita sampai di titik ini,
+satu tahun perjalanan yang penuh makna.
+</p>
+
+</div>
+
+<!-- GALERI -->
+
+<h2>Kenangan Kita 📸</h2>
+
+<div class="gallery">
+
+<img src="kenangan1.jpg">
+<img src="kenangan2.jpg">
+<img src="kenangan3.jpg">
+<img src="photo_2026-03-09_00-30-36.jpg">
+<img src="photo_2026-03-09_00-30-42.jpg">
+<img src="photo_2026-03-09_00-30-47.jpg">
+
+</div>
+
+</div>
+
+<!-- MUSIC -->
+
+<audio id="music" loop>
+
+<source src="ssstik.io_1772992889837.mp3" type="audio/mpeg">
+
+</audio>
+
+<script>
+
+/* OPEN LETTER */
+
+function openLetter(){
+
+document.getElementById("start").style.display="none";
+document.getElementById("content").style.display="block";
+
+document.getElementById("music").play();
+
+}
+
+/* TIMER */
+
+const startDate = new Date("2025-03-08");
+
+function updateTimer(){
+
+const now=new Date();
+
+const diff=now-startDate;
+
+const days=Math.floor(diff/(1000*60*60*24));
+const hours=Math.floor((diff/(1000*60*60))%24);
+const minutes=Math.floor((diff/(1000*60))%60);
+const seconds=Math.floor((diff/1000)%60);
+
+document.getElementById("time").innerHTML=
+days+" Hari "+
+hours+" Jam "+
+minutes+" Menit "+
+seconds+" Detik";
+
+}
+
+setInterval(updateTimer,1000);
+
+/* LOVE ANIMATION */
+
+function createLove(){
+
+const love=document.createElement("div");
+
+love.classList.add("love");
+
+love.innerHTML="❤";
+
+love.style.left=Math.random()*100+"vw";
+
+love.style.fontSize=(Math.random()*20+10)+"px";
+
+document.body.appendChild(love);
+
+setTimeout(()=>{
+love.remove();
+},6000);
+
+}
+
+setInterval(createLove,500);
+
+</script>
+
+</body>
+</html>
